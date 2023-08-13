@@ -26,6 +26,20 @@
     font-style: normal;
 }
 
+/* @font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../src/css/opensans_webfontkit/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins_light';
+    src: url('..src/css/Poppins/Poppins-ThinItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
 /*noinspection CssUnknownTarget*/
 @font-face {
     font-family: 'open_sanslight';

@@ -83,8 +83,8 @@
 hr {
     margin-bottom: 5px;
     clear: left;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ddd;
+    padding: 5px 3px;
+    border-bottom: 0.5px solid #6B6B6B;
     width: 100%;
     float: left;
 }
@@ -123,7 +123,7 @@ hr {
 .tab-configuration .gui_box h3 {
     text-decoration: underline;
     font-size: 1.07em;
-    color: #333;
+    color: white;
     margin-left: 2px;
     margin-bottom: 5px;
 }
@@ -141,15 +141,15 @@ hr {
     width: 175px;
 }
 
-.tab-configuration .gui_box {
-    font-family: 'open_sanssemibold', Arial, serif;
-}
+/* .tab-configuration .gui_box {
+    font-family: 'poppins_semibold', serif;
+} */
 
 .tab-configuration .gui_box span {
     font-style: normal;
-    font-family: 'open_sansregular', Arial, serif;
+    font-family: 'poppins_regular', serif;
     line-height: 19px;
-    color: #4F4F4F;
+    color: #BEBEBE;
     font-size: 12px;
 }
 
@@ -221,6 +221,7 @@ hr {
 .config-section .select select,
 .config-section .number input {
     vertical-align: top;
+    margin-bottom: 4px;
 }
 
 .config-section .checkbox label,
@@ -260,6 +261,10 @@ hr {
     width: 111px;
     height: 22px;
     margin-right: 4px;
+}
+
+#battery_capacity_unit{
+    color: black;
 }
 
 .config-section .helpicon {

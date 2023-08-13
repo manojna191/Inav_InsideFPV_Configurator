@@ -1,6 +1,6 @@
 /* general layout */
 .tab-landing {
-    min-height: 100%;
+    min-height: 100%;  /*scales the height based on the height */
     overflow: hidden;
 }
 
@@ -9,16 +9,51 @@
     min-height: 100%;
     height: 100%;
     overflow-y: auto;
-    background-color: #104156;
+    background-color: #0D0D0D;
+    /* background-image: url("../images/homepagebackground.svg"); */
+    /* background-size: cover; */
+    /* opacity: 80%; */
+}
+
+.tab-landing .container_glass{
+    /* background: linear-gradient(106.65deg, rgba(58, 66, 73, 0.5) 0%, rgba(58, 66, 73, 0.38) 34.76%, rgba(119, 130, 138, 0.252083) 61.74%, rgba(58, 66, 73, 0.2) 99.62%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px); */
+    background-color: rgba(50, 50, 50, 0.25);
+    float: right;
+    border-radius: 12px;
+    height: calc(100% - 80px);
+    width: calc(100% - 150px);
+    font-weight: 400;
+    /* Note: backdrop-filter has minimal browser support */
+    margin: 40px 20px;
+    font-family: 'poppins_regular', Arial,serif;
+    text-align: left;
+    /* border-radius: 10px; */
+
+}
+
+.tab-landing .content_wrap{
+    margin: 30px 30px;
 }
 
 .tab-landing .content_top {
-    height: 140px;
-    background: white url(/images/map_bg.svg);
-    padding: 20px;
+    height: 30%;
+    /* font-size: 1.5em;
+    font-weight: 700; */
+    line-height: 29px;
+    font-size: 1.9em;
+    color: #FFFFFF;
+    text-align: left;
+    /* background: white url(/images/map_bg.svg); */
+    /* padding: 20px; */
 }
 
-.tab-landing .community {
+.content_top span{
+    color:#E80000 ;
+}
+
+/* .tab-landing .community {
     text-align: center;
     margin: 15px 0px;
 }
@@ -47,16 +82,18 @@
     color: white;
     margin-left: -200px;
     margin-top: 5px;
-}
+} */
 
 .tab-landing .content_mid {
-    background-color: #37a8db;
-    overflow: hidden;
+    /* background-color: white; */
+    /* background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 1%, rgba(250,204,204,1) 90%); */
+    /* height: 310px; */
 }
 
-.tab-landing .content_mid a {
+/* .tab-landing .content_mid a {
     color: white;
-}
+} */
 
 .tab-landing .content_foot {
     clear: both;
@@ -69,22 +106,22 @@
     margin-right: auto;
     margin-top: 5px;
     width: 800px;
-    color: black;
+    /* color: black; */
     font-size: 14px;
-    font-family: 'open_sanslight', Arial,serif;
+    font-family: 'poppins_light', Arial,serif;
 }
 
 .tab-landing .logowrapper img {
-    width: 700px;
+    width: 300px;
     margin: 10px;
 }
 
 
 /* sponsors blocks */
-.sponsors .title {
+/* .sponsors .title {
     text-transform: uppercase;
     font-size: 10px;
-}
+} */
 
 .sponsors {
     margin-left: auto;
@@ -95,47 +132,76 @@
 
 .sponsors ul {
     margin-top: 5px;
+    font-size: 16px;
 }
 
 .sponsors li {
     display: inline-block;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .sponsors li a {
     border-radius: 3px;
     padding: 2px 4px;
-    font-size: 35px;
-    line-height: 40px;
-    color: white;
-    font-weight: normal;
-    font-family: 'open_sanslight', Arial,serif;
+    /* font-size: 35px;
+    line-height: 40px; */
+    color: #E54848;
+    font-weight: bold;
+    font-family: 'poopins_light', Arial,serif;
 }
 
-.sponsors li a:hover {
+/* .sponsors li a:hover {
     background-color: rgba(255, 255, 255, 0.30);
     color: #fff;
-}
+} */
 
-.text1, .text2, .text3 {
+/* .text1, .text2, .text3 {
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight: normal;
     font-family: 'open_sansregular', Arial,serif;
     font-size: 1.2em;
 	color: #c2efff;
-}
+}  */
 
-.text3 {
+/* .text3 {
 	color: black;
 }
 
 /* text columns */
-.tab-landing .content_mid .column .wrap {
-    padding: 0 15px;
+.tab-landing .content_mid{
+    /* padding: 20px 20px; */
+    font-size: 1.7em;
+    margin-top: 20px;
+    /* font-weight: 700;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'poppins_regular', Arial,serif; */
 }
 
-.tab-landing .content_mid .column .wrap2 {
+.tab-landing .content_mid div:not(:first-child){
+    margin-top: 12px;
+}
+
+/* .tab-landing .content_mid .text1{ */
+    /* flex: 5; */
+    /* margin: 50px; */
+/* } */
+
+/* .tab-landing .content_mid .text2{
+    flex: 5;
+}  */
+
+/* .content_mid span{
+    color: #E54848;
+} */
+
+.text1 .text2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* .tab-landing .content_mid .column .wrap2 {
     padding: 10px;
 }
 
@@ -189,4 +255,4 @@
 .tab-landing .content_mid .text3 .donate {
     margin-top: 10px;
     text-align: center;
-}
+} */

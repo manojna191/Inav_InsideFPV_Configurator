@@ -9,17 +9,17 @@
 }
 
 .tab-auxiliary .range .marker, .tab-auxiliary .channel-slider .noUi-connect {
-    background: #37a8db;
+    background: #00CCF9;
     border-radius: 3px;
 }
 
 .tab-auxiliary .mode.on .info {
-    background: #37a8db;
+    background: #1D1D1D;
     color: white;
 }
 
 .tab-auxiliary .mode.on:nth-child(odd) .info {
-    background: #37a8db;
+    background: #1D1D1D;
 }
 
 .tab-auxiliary .mode.inRange .info {
@@ -31,12 +31,12 @@
 }
 
 .tab-auxiliary .mode.off .info {
-    background: #828885;
+    background: #1D1D1D;
     color: white;
 }
 
 .tab-auxiliary .mode.off:nth-child(odd) .info {
-    background: #828885;
+    background: #1D1D1D;
 }
 
 #tab-auxiliary-templates {
@@ -49,28 +49,32 @@
 }
 
 .tab-auxiliary .modeSection > td {
-    background-color: #f9f9f9;
+    background-color: #383838;
     vertical-align: top;
     padding-bottom: 5px;
 }
 
 .tab-auxiliary .modeSectionArea {
-    background-color: #37a8db;
+    background: #00CCF9;
+    border-radius: 6px;
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 1.1em;
-    text-shadow: 0 1px rgba(0, 0, 0, 0.5);
-    padding: 5px;
+    margin-top: 5px;
+    /* text-shadow: 0 1px rgba(0, 0, 0, 0.5); */
+    padding: 5px 15px;
 }
 
 .tab-auxiliary .mode {
-    background-color: #f9f9f9;
+    background-color: #6B6B6B;
     vertical-align: top;
+    /* display: block;
+    border-radius: 6px; */
     border-bottom: 1px solid #000000;
 }
 
 .tab-auxiliary .mode .name {
-    min-height: 50px;
+    min-height: 25px;
     padding: 13px 0;
 }
 
@@ -78,16 +82,16 @@
     text-align: center;
     width: 10%;
     position: relative;
-    background-color: #e4e4e4;
-    border-bottom: 5px solid white;
-    color: grey;
+    background-color: #1D1D1D;
+    border-bottom: 7px solid #383838;
+    color:  #FFFFFF;
     height: 85px;
     width: 130px;
     padding: 0px 5px;
 }
 
 .tab-auxiliary .mode .info .name {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 1.0em;
     padding-bottom: 5px;
 }
@@ -100,14 +104,14 @@
 }
 
 .tab-auxiliary .mode .info .buttons a {
-    padding: 2px 5px;
+    padding: 5px 20px;
     border-radius: 4px;
 }
 
 .tab-auxiliary .ranges {
     margin: 10px;
     padding-right: 0;
-    border-bottom: 5px solid white;
+    border-bottom: 7px solid #383838;
 }
 
 .tab-auxiliary .range {
@@ -115,9 +119,10 @@
     height: 70px;
     padding-top: 15px;
     padding-left: 0;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #cccccc;
-    background-color: #ececec;
+    /* border-top: 1px solid #fff; */
+    /* border-bottom: 1px solid #cccccc; */
+    background-color: #6B6B6B;
+    color: #1D1D1D;
     padding-bottom: 5px;
 }
 
@@ -145,6 +150,10 @@
     text-align: center;
 }
 
+.tab-auxiliary .mode .range .channel{
+    background-color: #1D1D1D;
+}
+
 .tab-auxiliary .mode .range .channelInfo .limits {
     padding: 10px 0;
 }
@@ -159,6 +168,7 @@
 }
 
 .tab-auxiliary .range .channel-slider {
+    background-color: #D9D9D9;
     float: left;
     width: 80%;
     margin-left: 20px;
@@ -175,14 +185,18 @@
     line-height: 28px;
     padding: 0 15px 0 15px;
     display: block;
-    color: #000;
+    border: 0.75px solid #6B6B6B;
+    border-radius: 4px;
+    color: white;
 }
 
 .tab-auxiliary .buttons a {
     text-align: center;
     font-weight: bold;
-    background-color: #fff;
-    color: black;
+    background: rgba(190, 190, 190, 0.25);
+    color: white;
+    border: 0.75px solid #6B6B6B;
+    border-radius: 4px;
     opacity: 0.8;
     transition: all ease 0.3s;
 }
@@ -220,8 +234,8 @@
     line-height: 28px;
 }
 .tab-auxiliary .toolbox {
-    font-weight: bold;
-    color: rgb(105, 99, 99);
+    /* font-weight: bold; */
+    color: #BEBEBE;
     padding: 10px 5px;
 }
 
@@ -230,8 +244,9 @@
     margin-bottom: 0;
     background-color: #828885;
     color: white;
-    font-family: 'open_sansbold', Arial, serif;
+    font-family: 'poppins_bold', serif;
     font-size: 12px;
+    border-radius: 8px;
     display: block;
     cursor: pointer;
     transition: all ease 0.2s;
@@ -240,12 +255,13 @@
     bottom:10px;
     left:20px;
     width:10%;
+    padding: 2px 6px;
     text-align: center;
     z-index: 25000;
 }
 
 .tab-auxiliary .acroEnabled.on {
-    background-color: #37a8db;
+    background-color: #00CCF9;
 }
 
 .tab-auxiliary .acroEnabled.off {

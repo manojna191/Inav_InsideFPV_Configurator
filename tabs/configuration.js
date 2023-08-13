@@ -94,7 +94,7 @@ TABS.configuration.initialize = function (callback, scrollPosition) {
             }
 
             row_e = $('<div class="checkbox">' +
-                '<input type="checkbox" data-bit="' + features[i].bit + '" class="feature toggle" name="' + features[i].name + '" title="' + features[i].name + '"' +
+                '<input type="checkbox" data-bit="' + features[i].bit + '" class="feature togglemedium" name="' + features[i].name + '" title="' + features[i].name + '"' +
                 ' id="feature-' + features[i].bit + '" ' +
                 '>' +
                 '<label for="feature-' + features[i].bit + '">' +
@@ -264,6 +264,7 @@ TABS.configuration.initialize = function (callback, scrollPosition) {
         $i2cSpeed.change();
 
         $('a.save').click(function () {
+            alert('are u sure about this');
             MISC.mag_declination = parseFloat($('#mag_declination').val());
 
             ARMING_CONFIG.auto_disarm_delay = parseInt($('input[name="autodisarmdelay"]').val());

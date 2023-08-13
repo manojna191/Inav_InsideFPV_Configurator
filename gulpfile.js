@@ -8,9 +8,9 @@ var minimist = require('minimist');
 var archiver = require('archiver');
 var del = require('del');
 var NwBuilder = require('nw-builder');
-var semver = require('semver');
+var semver = require('semver'); //it is a version control in nuilt module
 
-var gulp = require('gulp');
+var gulp = require('gulp'); //main thing
 var concat = require('gulp-concat');
 
 const commandExistsSync = require('command-exists').sync;
@@ -48,6 +48,7 @@ sources.css = [
     './js/libraries/flightindicators.css',
     './src/css/tabs/*.css',
     './src/css/opensans_webfontkit/fonts.css',
+    './src/css/Poppins/font.css',
     './src/css/font-awesome/css/font-awesome.css',
     './src/css/dropdown-lists/css/style_lists.css',
     './js/libraries/switchery/switchery.css',
@@ -141,6 +142,7 @@ sources.js = [
 sources.receiverCss = [
     './src/css/tabs/receiver_msp.css',
     './src/css/opensans_webfontkit/fonts.css',
+    './src/css/Poppins/font.css',
     './js/libraries/jquery.nouislider.min.css',
     './js/libraries/jquery.nouislider.pips.min.css',
 ];
@@ -208,7 +210,7 @@ function execSync() {
 var buildCssTasks = [];
 var buildJsTasks = [];
 (function() {
-    // Convers fooBarBaz to foo-bar-baz
+    // Convers fooBarBaz to foo-bar-baz 
     for (var k in output) {
         (function (key) {
             var name = get_task_name(key);
@@ -248,6 +250,7 @@ gulp.task('dist-build', gulp.series('build', function() {
         './build/*',
         './src/css/font-awesome/webfonts/*',
         './src/css/opensans_webfontkit/*.{eot,svg,ttf,woff,woff2}',
+        './src/css/Poppins/*.{ttf}',
         './resources/*.json',
         './resources/models/*',
         './resources/osd/analogue/*.mcm',

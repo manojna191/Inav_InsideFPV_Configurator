@@ -14,7 +14,7 @@
 
 .tab-configuration .preset__description span {
     margin-top: 5px;
-    font-family: 'open_sansregular', Arial, serif;    
+    font-family: 'poppins_regular', serif;    
 }
 
 .tab-configuration .preset__features {
@@ -71,7 +71,7 @@
      
 
 .tab-configuration .list-menu li a {
-    font-family: 'open_sansregular', Arial, serif;
+    font-family: 'poppins_regular', Arial, serif;
     display:block;
     height:30px;
     line-height: 30px;

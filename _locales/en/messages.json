@@ -360,7 +360,7 @@
     },
 
     "defaultWelcomeIntro": {
-        "message": "Welcome to <strong>INAV - Configurator</strong>, a utility designed to simplify updating, configuring and tuning of your flight controller."
+        "message": "Welcome to <strong>inside</strong><span>FPV</span>, the foremost provider of high-quality consumer, agricultural, and military drones. Our mission is to alter people's perceptions of drones in India and make it simple and convenient for anyone to own and operate a drone."
     },
 
     "defaultWelcomeText": {
@@ -389,18 +389,6 @@
     },
     "communityRCGroupsSupport": {
         "message": "RC Groups Support"
-    },
-    "communityDiscordServer": {
-        "message": "Discord Server"
-    },
-    "communitySlackSupport": {
-        "message": "Slack Support Live Chat"
-    },
-    "communityTelegramSupport": {
-        "message": "Telegram Channel"
-    },
-    "communityFacebookSupport": {
-        "message": "Facebook Group"
     },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span style=\"color: red\">Backup and restore functionality disabled.</span>  You have firmware with API version <span style=\"color: red\">$1</span>, backup and restore requires <span style=\"color: #37a8db\">$2</span>.  Please backup your settings via the CLI, see INAV documentation for procedure."
@@ -4367,5 +4355,20 @@
     },
     "nmeaWarning": {
         "message": "NMEA protocol is deprecated and might be removed in the future. Please use UBLOX or UBLOX7 protocol instead."
+    },
+    "AboutInsideFPV_first":{
+        "message": "Our website features a cutting-edge configurator that allows you to tailor your drone to your particular requirements and preferences. Whether you are a hobbyist seeking a fun method to capture breathtaking aerial imagery or a farmer seeking to optimise crop yields with precision agriculture technology, we have the ideal drone for you."
+    },
+    "AboutInsideFPV_second":{
+        "message": "Our Plug and Fly FPV drones are designed for ease of use. There are no intricate setup or licencing requirements, so you can start flying immediately. Our drones are also constructed to the utmost quality and safety standards, so you can rest assured that you're receiving the best possible product."
+    },
+    "AboutInsideFPV_third":{
+        "message": "We provide a variety of drones for every altitude, ranging from small and agile quadcopters to larger and more potent hexacopters. Whether you require a drone for recreational or commercial purposes, we have the ideal solution for you."
+    },
+    "AboutInsideFPV_last":{
+        "message": "Why should we wait? Utilize our configurator now to create your ideal drone and experience flight like never before. Inside insideFPV, the sky's the limit!"
+    },
+    "developerInfo":{
+        "message": "This is a developer area. Be careful while handling the tab"
     }
 }

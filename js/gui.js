@@ -144,6 +144,8 @@ GUI_control.prototype.content_ready = function (callback) {
 
     $('.toggle').each(function(index, elem) {
         var switchery = new Switchery(elem, {
+            width: '5px',
+            height: '16px',
             color: '#37a8db',
             secondaryColor: '#c4c4c4'
         });
@@ -166,12 +168,12 @@ GUI_control.prototype.content_ready = function (callback) {
     });
 
     // Insert a documentation button next to the tab title
-    const tabTitle = $('div#content .tab_title').first();
-    const documentationDiv = $('<div>').addClass('cf_doc_version_bt');
-    $('<a>').attr('href', 'https://github.com/iNavFlight/inav/wiki')
-        .attr('target', '_blank').attr('id', 'button-documentation')
-        .html(chrome.i18n.getMessage('documentation')).appendTo(documentationDiv);
-    documentationDiv.insertAfter(tabTitle);
+    // const tabTitle = $('div#content .tab_title').first();
+    // const documentationDiv = $('<div>').addClass('cf_doc_version_bt');
+    // $('<a>').attr('href', 'https://github.com/iNavFlight/inav/wiki')
+    //     .attr('target', '_blank').attr('id', 'button-documentation')
+    //     .html(chrome.i18n.getMessage('documentation')).appendTo(documentationDiv);
+    // documentationDiv.insertAfter(tabTitle);
 
     // loading tooltip
     jQuery(document).ready(function($) {

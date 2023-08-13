@@ -93,7 +93,7 @@
 a {
     text-decoration: none;
     color: #000;
-    font-family: 'open_sanssemibold', Arial,serif;
+    font-family: 'poppins_semibold', Arial,serif;
 }
 
 a:hover {
@@ -110,7 +110,7 @@ a:hover {
     border: 1px solid #37a8db;
     color: #fff;
     float: left;
-    font-family: 'open_sansbold', Arial,serif;
+    font-family: 'poppins_bold', Arial,serif;
     font-size: 12px;
     text-shadow: 0 1px rgba(0, 0, 0, 0.25);
     display: block;

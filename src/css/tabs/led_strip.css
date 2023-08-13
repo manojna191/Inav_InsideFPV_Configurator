@@ -6,9 +6,11 @@
 }
 
 .tab-led-strip .section {
-    color: #565656;
-    margin: 20px 0 5px 0;
-    border-bottom: 1px solid silver;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 20px 0 7px 0;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid #FFFFFF;
 }
 
 .tab-led-strip .mainGrid {
@@ -16,9 +18,19 @@
     height: calc((24px + 7px) * 16);
     float: left;
     margin-right: 10px;
-    border-radius: 3px;
-    background-color: #dcdcdc;
-    border: silver;
+    border-radius: 8px;
+    background: #6B6B6B;
+    /* border: silver; */
+}
+
+.tab-led-strip .content_wrapper .container{
+    float: right;
+    width: 45%;
+    /* height: calc((24px + 7px) * 16); */
+    border-radius: 8px;
+    padding-top: 10px;
+    padding: 20px 20px;
+    background: #1D1D1D;
 }
 
 .tab-led-strip .mainGrid .gPoint {
@@ -27,8 +39,9 @@
     width: 23px;
     height: 23px;
     margin: 3px;
-    border-radius: 7px;
-    background: #ececec;
+    border-radius: 4px;
+    background: #BEBEBE;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
 
@@ -177,11 +190,12 @@
 
 .tab-led-strip button {
     text-align: center;
-    font-weight: bold;
-    border: 1px solid silver;
-    background-color: #ececec;
-    border-radius: 3px;
+    background: rgba(190, 190, 190, 0.25);
+    border: 0.75px solid #6B6B6B;
+    border-radius: 5px;
+    color: white;
     padding: 7px 6px;
+    font-weight: normal;
     margin: 3px 0;
 }
 
@@ -204,7 +218,16 @@
 
 /* Drop-down boxes */
 
-.tab-led-strip .select {    background: white;}
+.tab-led-strip .select {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.tab-led-strip .select .color_section{
+    margin-right: 15px;
+    font-size: 14px;
+}
+
 .tab-led-strip .select .function-c {
     background: linear-gradient( to bottom right, rgba(255, 0, 0, .5) 0%, rgba(255, 255, 0, 0.5) 15%, rgba(0, 255, 0, .5) 30%, rgba(0, 255, 255, .5) 50%, rgba(0, 0, 255, .5) 65%, rgba(255, 0, 255, .5) 80%, rgba(255, 0, 0, .5) 100%);
 }
@@ -228,6 +251,15 @@
 .tab-led-strip .blinkers,
 .tab-led-strip .modifiers {
     display: inline-block;
+}
+
+.tab-led-strip .overlays .color_section + div{
+    margin-top: 10px;
+}
+
+.tab-led-strip .overlays div{
+    font-size: 12px;
+    margin-bottom: 5px;
 }
 
 .tab-led-strip .colorDefineSliders {
@@ -267,7 +299,7 @@
 
 .tab-led-strip .colors button:hover {
     border-color: inherit;
-    border-style: solid;
+    /* border-style: solid; */
 }
 
 .tab-led-strip .directions .btnOn {
@@ -340,7 +372,7 @@
 .tab-led-strip .controls {
     position: relative;
     float: left;
-    width: 285px;
+    /* width: 285px; */
     margin-right: 10px;
 }
 
@@ -401,7 +433,7 @@
     position: absolute;
     z-index: -1;
     width: 496px;
-    border: 1px solid rgb(236, 236, 236);
+    /* border: 1px solid rgb(236, 236, 236); */
     margin-top: -1px;
     margin-left: -1px;
     border-radius: 3px;
@@ -411,7 +443,7 @@
     width: 122px;
     height: 122px;
     float: left;
-    border: solid 1px rgb(236, 236, 236);
+    /* border: solid 1px rgb(236, 236, 236); */
 }
 
 

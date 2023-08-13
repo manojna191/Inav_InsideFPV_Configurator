@@ -233,7 +233,7 @@
     font-size: 12px;
     border-bottom: 1px solid #ccc;
     color: #828282;
-    font-family: 'open_sans', Arial, serif;
+    font-family: 'poppins_regular', serif;
     background: #D6D6D6 linear-gradient(-45deg, rgba(255, 255, 255, .2) 10%, transparent 10%, transparent 20%,
     rgba(255, 255, 255, .2) 20%, rgba(255, 255, 255, .2) 30%, transparent 30%, transparent 40%,
     rgba(255, 255, 255, .2) 40%, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent 60%,
@@ -331,7 +331,7 @@
 
 .tab-pid_tuning .gui_box span {
     font-style: normal;
-    font-family: 'open_sansregular', Arial, serif;
+    font-family: 'poppins_regular', Arial, serif;
     line-height: 19px;
     color: #7d7d7d;
     font-size: 11px;
@@ -413,7 +413,7 @@
 }
 
 .pid-slider-row input[type="number"] {
-    font-family: 'open_sansregular', 'Segoe UI', Tahoma, sans-serif;
+    font-family: 'poppins_regular', 'Segoe UI', Tahoma, sans-serif;
     background-color: #fff;
     border: 1px solid #ccc;
     font-size: 0.95em;
